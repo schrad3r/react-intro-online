@@ -4,7 +4,7 @@
 
 In this project we will use an npm package called `create-react-app` to quickly spin up a react application. We'll cover how to use `onClick` and `onChange` events in React, state, JSX, and how to import/export components.
 
-<img src="https://github.com/DevMountain/DevMtn-React-Introduction/blob/solution/readme/1.png" />
+<img src="https://github.com/DevMountain/react-intro-online/blob/solution/readme/1.png" />
 
 ## Setup
 
@@ -18,7 +18,7 @@ After `create-react-app` has finished, you'll notice we now have a folder named 
 
 Change your directory, using your terminal, to inside of the app folder ( `cd app` ) so we can have access to the pre-defined scripts that `create-react-app` made for us in the `package.json`. If we run `npm start` you should see your default browser pop-up and see the react landing page.
 
-<img src="https://github.com/DevMountain/DevMtn-React-Introduction/blob/solution/readme/2.png" />
+<img src="https://github.com/DevMountain/react-intro-online/blob/solution/readme/2.png" />
 
 If a browser didn't pop up for you, double check that your terminal is in the app folder. In this step we are going to change the default react landing page to our calculator.
 
@@ -358,7 +358,7 @@ export default App;
 
 <br />
 
-<img src="https://github.com/DevMountain/DevMtn-React-Introduction/blob/solution/readme/3-3.png" />
+<img src="https://github.com/DevMountain/react-intro-online/blob/solution/readme/3.png" />
 
 ## Step 3
 
@@ -687,7 +687,7 @@ export default Calculator;
 ### Summary
 In this step we will be tweaking our calculator to handle certain scenarios. If we click on our buttons we can see that our display now updates. However our calculator keeps the initial 0 and also doesn't account for length and can break out of its container.
 
-<img src="https://github.com/DevMountain/DevMtn-React-Introduction/blob/solution/readme/4.png" />
+<img src="https://github.com/DevMountain/react-intro-online/blob/solution/readme/4.png" />
 
 ### Instructions
 
@@ -720,7 +720,7 @@ setDisplay(num) {
 
 ### Solution
 
-<img src="https://github.com/DevMountain/DevMtn-React-Introduction/blob/solution/readme/5.png" />
+<img src="https://github.com/DevMountain/react-intro-online/blob/solution/readme/5.png" />
 
 
 ## Step 7
@@ -788,7 +788,7 @@ Why parseInt? Since we are going to do math on these numbers I used parseInt on 
 
 ### Solution
 
-<img src="https://github.com/DevMountain/DevMtn-React-Introduction/blob/solution/readme/2-1g.gif" />
+<img src="https://github.com/DevMountain/react-intro-online/blob/solution/readme/2g.gif" />
 
 
 ## Step 8
@@ -887,7 +887,7 @@ calculate() {
 
 ### Solution
 
-<img src="https://github.com/DevMountain/DevMtn-React-Introduction/blob/solution/readme/3-1g.gif" />
+<img src="https://github.com/DevMountain/react-intro-online/blob/solution/readme/3g.gif" />
 
 
 ## Step 9
@@ -923,7 +923,7 @@ clearDisplay() {
 ### Solution
 
 <p align="center">
-<img src="https://github.com/DevMountain/DevMtn-React-Introduction/blob/solution/readme/4-1g.gif" />
+<img src="https://github.com/DevMountain/react-intro-online/blob/solution/readme/4g.gif" />
 </p>
 
 ## Black Diamond
@@ -934,7 +934,7 @@ Figure out how to use the `resetDisplay` state property so that the user can sta
 
 ### Solution
 
-<img src="https://github.com/DevMountain/DevMtn-React-Introduction/blob/solution/readme/5g.gif" />
+<img src="https://github.com/DevMountain/react-intro-online/blob/solution/readme/5g.gif" />
 
 ## Contributions
 
