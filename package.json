@@ -1,0 +1,23 @@
+{
+  "name": "react-intro-online",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMountain/react-intro-online.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevMountain/react-intro-online/issues"
+  },
+  "homepage": "https://github.com/DevMountain/react-intro-online#readme",
+  "dependencies": {
+    "create-react-app": "^1.3.0"
+  }
+}
