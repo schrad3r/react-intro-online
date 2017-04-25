@@ -552,7 +552,7 @@ Just above the render function in `Calculator.js` let's add a method called cons
 
 #### Solution
 ```jsx
-constructor(props) {
+constructor() {
   super();
   this.state = {
     header: 'Calculator',
@@ -629,14 +629,19 @@ import React, { Component } from 'react';
 import calculatorImg from '../../../../calculator.png';
 
 class Calculator extends Component {
-  constructor(props) {
+  constructor() {
     super();
     this.state = {
+      header: 'Calculator',
       display: '0',
       operator: '',
       temp: 0,
       resetDisplay: false,
     }
+  }
+
+  updateHeader(val) {
+    this.setState({ header: val });
   }
 
   setDisplay(num) {
@@ -646,6 +651,8 @@ class Calculator extends Component {
   render() {
     return (
       <div id="calculator-container">
+        <input id="header-input" onChange={ (e) => { this.updateHeader(e.target.value); }}></input>
+        <h1 id="header"> {this.state.header} </h1>
         <img className="remove-highlight" src={calculatorImg} alt="calculator" />
         <div id="calculator-mask" className="remove-highlight">
 
